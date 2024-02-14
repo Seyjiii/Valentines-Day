@@ -114,7 +114,7 @@ const Heart = () => {
   });
 
   return /*#__PURE__*/(
-    React.createElement("a", { href: "https://web.facebook.com/", className: "heart-link" }, /*#__PURE__*/
+    React.createElement("a", { href: "https://www.canva.com/design/DAF8q59aOQE/oq01VNaHHYjJNdpqqSarrQ/edit", className: "heart-link" }, /*#__PURE__*/
     React.createElement("button", { className: "heart", onMouseDown: () => setPressed(true), ref: ref, style: { '--lightness': `${love * 80 + 20}%`, '--scale': 0.8 + love * 0.2 - pressed * 0.1 } }, /*#__PURE__*/
     React.createElement("div", { className: "inner-wrapper" }, /*#__PURE__*/
     React.createElement(Splash, { circles: items }),
